@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:#f7d3e1;
+}
+div{
+    position: relative; top: 30vh; left: 30vw;
+    height:40vh; width: 40vw;
+    background-color:#0c1137;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius:15px;
+    box-shadow: 1px 1px #0c1137;
+}
+input{
+    padding: 5px;margin: 10px 20px; 
+    background-color: #e52165;color:#f7d3e1;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#display{
+    z-index: 5;
+    position: absolute;
+    top: 45vh;left:33vw;
+    color:#f7d3e1;
+    font-size:50px;
+}
